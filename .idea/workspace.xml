@@ -44,8 +44,8 @@
       <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lorence/notificationdemo/level1/Login/LoginActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding>
                 <element signature="e#202#203#0" expanded="true" />
                 <element signature="e#248#249#0" expanded="true" />
@@ -2008,7 +2008,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
-    <property name="device.picker.selection" value="RQ3002E9SP" />
+    <property name="device.picker.selection" value="RQ3002E9SP 192.168.61.102:5555" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.packageName">
@@ -2480,8 +2480,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lorence/notificationdemo/level1/Login/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="135">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding>
             <element signature="e#202#203#0" expanded="true" />
             <element signature="e#248#249#0" expanded="true" />

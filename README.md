@@ -30,6 +30,16 @@
 		- How can I code ?
 		+ Implement viewing UI when I run LoginActivity
 
+- [Level 1](#level-1)
+- [Level 1.1](#for-example)
+
+##Level 1
+
+	- REQUEST 1: Inflate sucessfully and show view successfully.
+<p align="center">
+<img src="" alt="1.png"/>
+</p>
+	- REQUEST 2: Override onCreate() and write Dialog show before Login
 	
 
 
