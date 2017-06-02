@@ -23,10 +23,10 @@
 		- How many handling in Activity Login ?
 		+ Handling 1: Inflate view from XML
 			- Is there any another Activity using this handling above?
-			+ YES:  Abstract to handle and extends from Abstract(x). Applying 				Abstract Design Pattern in Java.
+			+ YES:  Abstract to handle and extends from Abstract(x). Applying Abstract Design Pattern in Java.
 			+ NO :  Implement in here. We put handling in here.
 		+ Handling 2: Login with social network such as: Facebook or Google.
-			- Relizing that there are so many methods to handle. That's main 				reason you should seprate to Abstract and put process in there.
+			- Relizing that there are so many methods to handle. That's main reason you should seprate to Abstract and put process in there.
 		- How can I code ?
 		+ Implement viewing UI when I run LoginActivity
 
