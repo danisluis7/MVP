@@ -37,9 +37,63 @@
 
 	- REQUEST 1: Inflate sucessfully and show view successfully.
 <p align="center">
-<img src="https://github.com/danisluis7/MVP/blob/level1/1.png" alt="1.png"/>
+	<img src="https://github.com/danisluis7/MVP/blob/level1/1.png" alt="1.png"/>
 </p>
-	- REQUEST 2: Override onCreate() and write Dialog show before Login
+	- ANALYSIS: We need to add some attributes nessary when view UI for user. For example:
+	+ Change color StatusBar on Android
+	+ Change color Toolbar before view 
+	+ Change title of Toolbar before view 
+	+ Change Animation of Screen before view
+	+ Show Start Screen before jumping into Login Screen.[PRIVATE]
+
+	- FIlTER these requirements above and organize follow 
+	+ Which one is common all Activity and put handle inside Abstract to handle
+	+ Which one is private of every Activity and put here in that Activity and handle
+
+	- CONTINUE : Show Start Screen before jumping into Login Screen.[PRIVATE]. Or you understand following other way such as: How to provide animation when calling another activity in Android?
+	+ .....
+	
+	- APPLYING MVP : HOW CAN I APPLY INTERFACE - LEVEL 1[VIEW](VIEW)
+	+ Case One: I show problem and solution to resolve it.
+<p align="center">
+	<img src="https://github.com/danisluis7/MVP/blob/level1/2.png" alt="2.png"/>
+</p>
+	=> With Java Swing: We don't call Interface in static function.
+<p align="center">
+	<img src="https://github.com/danisluis7/MVP/blob/level1/3.png" alt="3.png"/>
+</p>
+	=> With Android: We call Interface by Event Click (Button or TextView)
+	- In my branch, I will organize code follow stype below:
+		.root/Login/
+		.root/Login/View/LoginActivity.Java
+		.root/Login/View/ILoginView.Java
+
+		.root/Login/Presenter/LoginPresenter.java
+		.root/Login/Presenter/LoginPresenterImpl.java
+
+		.root/Login/Model/LoginInteractor.java
+		.root/Login/Model/LoginInteractorImpl.java
+	
+	- With way above. I realise that every won't be ok. I learned two ways to handle
+	+ First: 
+		.root/Login/LoginActivity.java
+		.root/Login/ILoginView.java	
+		.root/Login/LoginPresenter.java
+		.root/Login/LoginPresenterImpl.java
+		.root/Login/LoginInteractor.java
+		.root/Login/LoginInteractorImpl.java
+	+ Second:
+		.root/View/LoginActivity.java
+		.root/View/ILoginView.java
+
+		.root/Presenter/LoginPresenter.java
+		.root/Presenter/LoginPresenterImpl.java
+		
+		.root/Model/LoginInteractor.java
+		.root/Model/LoginInteractorImpl.java
+		
+	+ Case Two: 
+	- REQUEST 2: 
 	
 
 
