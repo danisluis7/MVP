@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_level0"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/bgSkypeTM"
-    tools:context="com.example.enclaveit.tutorials.View.LoginActivity">
+    tools:context=".Login.LoginActivity">
 
     <ImageView
         android:background="@drawable/logoskypetm"
@@ -30,8 +29,7 @@
         android:id="@+id/textView" />
 
     <EditText
-        android:id="@+id/email"
-        android:hint="Enter email"
+        android:text="EMAIL"
         android:textSize="16dp"
         android:textColor="@color/white"
         android:background="@drawable/rounded_edittext"
@@ -44,11 +42,10 @@
         android:minLines="1"
         android:maxLines="1"
         android:drawableLeft="@drawable/user"
-        android:drawablePadding="18dp" />
+        android:drawablePadding="18dp"/>
 
     <EditText
-        android:id="@+id/password"
-        android:hint="Enter password"
+        android:text="PASSWORD"
         android:textSize="16dp"
         android:textColor="@color/white"
         android:background="@drawable/rounded_edittext"
@@ -61,7 +58,8 @@
         android:minLines="1"
         android:maxLines="1"
         android:drawableLeft="@drawable/pass"
-        android:drawablePadding="18dp" />
+        android:drawablePadding="18dp"
+        />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -86,7 +84,6 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/btnLogin"
         android:text="Login"
         android:textColor="@color/white"
         android:background="@drawable/rounded_button"
