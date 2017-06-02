@@ -3,6 +3,15 @@
 
     <item
         is-multidex="false"
+        jar="/home/enclaveit/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.6.0/48efa6f14074e1a6b16e02ac05eba3fc5c7c7ec8/butterknife-annotations-8.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="48efa6f14074e1a6b16e02ac05eba3fc5c7c7ec8">
+        <dex dex="/home/enclaveit/Desktop/MVP/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.6.0_dd1d8a5d724970dc81dc3193059444a97d772cfc.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/enclaveit/Desktop/MVP/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -108,6 +117,15 @@
         revision="25.0.2"
         sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
         <dex dex="/home/enclaveit/Desktop/MVP/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.1_af0a2532a787b401b9f8fb345eca5cf60852f2d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/MVP/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.6.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="be587097e648eabfb7f9eca23ab03369894e2d5d">
+        <dex dex="/home/enclaveit/Desktop/MVP/app/build/intermediates/pre-dexed/debug/com.jakewharton-butterknife-8.6.0_707d9abde006b014012a7d90d160210d32168131.jar" />
     </item>
     <item
         is-multidex="false"

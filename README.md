@@ -8,6 +8,8 @@
 
 - [Extends CommonActivity](#extends-commonactivity)
 - [For example](#for-example)
+- [Libraries](#libraries)
+- [Technical](#technical)
 
 ## Extends CommonActivity
 	- STEP 1: Using technical Abstract with current project
@@ -93,7 +95,47 @@
 		.root/Model/LoginInteractorImpl.java
 		
 	+ Case Two: 
-	- REQUEST 2: 
+
+	- REQUEST 2: Researching about onCreate() [It looks like function main()]
+		- 
+	
+##Libraries
+
+	- Inflate view from xml. Using it to avoid bug and reduce your code.
+		compile 'com.jakewharton:butterknife:8.6.0'
+		apply plugin: 'com.jakewharton.butterknife'
+	- Catch event from view when user click any view in screen.
+		annotationProcessor 'com.jakewharton:butterknife-compiler:8.6.0'
+	- Catch event from view 
+	+ PROBLEM: How can I set name(CLEAN CODE)
+		- XML: [activity_demo_[name of field]_[Name of Widget Android]
+		- CORE : [Name of Widget Android][Abbreviation]_[name of field]
+<p align="center">
+	<img src="https://github.com/danisluis7/MVP/blob/level1/4.png" alt="4.png"/>
+</p>
+	+ PROBLEM: How can catch event when click or touch on view.
+	- BEFORE : onClick(default in Android) => It's very difficult to understand
+	- AFTER : Apply butterknife to help developer is easier to understand. Look at picture below and abserve. (TO GET COLOR "CSS COLOR PICKER")
+<p align="center">
+	<img src="https://github.com/danisluis7/MVP/blob/level1/5.png" alt="5.png"/>
+</p>
+	+ AFTER CATCHING EVENT SUCCESSFULLY
+	- Where should I put my handle?
+	+ CASE ONE:[ACTIVE] 
+		- If we realize that handle will be use all activity and I put in Abstract Activity.
+	+ CASE TWO:[ACTIVE]
+		- Only handle for this Activity and I put there.
+
+	+ CASE ONE:[PASSIVE]
+		- Notice, we get handle from prarent Abstract like SocialActivity or BaseActivity.
+	
+##Technical
+	+ ANALYSIS MAIN(OnCreate). How can separate small block and put it in each Abstract Class.
+	+ ANALYSIS SEND DATA FROM VIEW TO PRESENTER (CALL HANDLE - MORE INTERFACE TO RETURN RESULT)
+	
+	
+
+
 	
 
 

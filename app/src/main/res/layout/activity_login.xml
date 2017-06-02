@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/bgSkypeTM"
-    tools:context=".Login.LoginActivity">
+    tools:context=".Login.View.LoginActivity">
 
     <ImageView
         android:background="@drawable/logoskypetm"
@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:id="@+id/imageView" />
+        android:id="@+id/activity_login_logoImageView" />
 
     <TextView
         android:text="WELCOME BACK"
@@ -26,10 +26,11 @@
         android:layout_marginLeft="80dp"
         android:layout_marginRight="80dp"
         android:layout_marginTop="200dp"
-        android:id="@+id/textView" />
+        android:id="@+id/activity_login_titleTextView" />
 
     <EditText
-        android:text="EMAIL"
+        android:hint="EMAIL"
+        android:textColorHint="#e6eaf2"
         android:textSize="16dp"
         android:textColor="@color/white"
         android:background="@drawable/rounded_edittext"
@@ -42,10 +43,12 @@
         android:minLines="1"
         android:maxLines="1"
         android:drawableLeft="@drawable/user"
-        android:drawablePadding="18dp"/>
+        android:drawablePadding="18dp"
+        android:id="@+id/activity_login_emailEditText"/>
 
     <EditText
-        android:text="PASSWORD"
+        android:hint="PASSWORD"
+        android:textColorHint="#e6eaf2"
         android:textSize="16dp"
         android:textColor="@color/white"
         android:background="@drawable/rounded_edittext"
@@ -59,7 +62,7 @@
         android:maxLines="1"
         android:drawableLeft="@drawable/pass"
         android:drawablePadding="18dp"
-        />
+        android:id="@+id/activity_login_passwordEditText"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -73,7 +76,8 @@
             android:button="@drawable/checkbox_selector"
             android:layout_width="18dp"
             android:layout_height="18dp"
-            android:layout_weight="0.08" />
+            android:layout_weight="0.08"
+            android:id="@+id/activity_login_rememberMeCheckBox"/>
 
         <TextView
             android:text="@string/remember"
@@ -91,7 +95,8 @@
         android:layout_marginLeft="35dp"
         android:layout_marginRight="35dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_login_loginButton"/>
 
     <LinearLayout
         android:gravity="center"
@@ -112,6 +117,7 @@
             android:textColor="@color/titleSkypeTM"
             android:text="@string/register"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:id="@+id/activity_login_registerTextView"/>
     </LinearLayout>
 </RelativeLayout>
