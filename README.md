@@ -132,10 +132,23 @@
 ##Technical
 	+ ANALYSIS MAIN(OnCreate). How can separate small block and put it in each Abstract Class.
 
-	
+	ONCREATE
+		- Part 1: Using available attributes in parent abstract and definition them in view. 
+			+ Purpose: Abstract will use.
+		- Part 2: We have middle Abstract (Using Camera to get Result from device such as: CAMERA, 		
 		
 	+ ANALYSIS SEND DATA FROM VIEW TO PRESENTER (CALL HANDLE - MORE INTERFACE TO RETURN RESULT)
 	
+
+/** Summary
+ *
+ * FOR EXAMPLE 1: APPLYING @BindView
+ * FOR EXAMPLE 2: DISTRIBUTING PROJECT FROM BACKEND TO CLIENT
+ * FOR EXAMPLE 3: TRANSFER DATA FROM CLIENT TO BACKEND PROCESSING
+ * FOR EXAMPLE 4: APPLYING EVENT CLICK(@OnClick)
+ * FOR EXAMPLE 5: USING INTERFACE(CALL DECLARING FROM ABSTRACT)
+ * FOR EXAMPLE 6: USING INTERFACE(DEFINITE IN HERE TO USE[PRIVATE])
+ */
 	
 
 
