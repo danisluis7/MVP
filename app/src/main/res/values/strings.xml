@@ -17,4 +17,6 @@
     -->
     <string name="app_demo">App Football Match</string>
 
+    <string name="loading">Loading...</string>
+
 </resources>

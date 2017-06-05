@@ -29,8 +29,8 @@
         android:id="@+id/activity_login_titleTextView" />
 
     <EditText
-        android:hint="EMAIL"
-        android:textColorHint="#e6eaf2"
+        android:hint="you@gmail.com"
+        android:textColorHint="#effbff"
         android:textSize="16dp"
         android:textColor="@color/white"
         android:background="@drawable/rounded_edittext"
@@ -47,9 +47,10 @@
         android:id="@+id/activity_login_emailEditText"/>
 
     <EditText
-        android:hint="PASSWORD"
-        android:textColorHint="#e6eaf2"
+        android:hint="abc123@456"
+        android:textColorHint="#effbff"
         android:textSize="16dp"
+        android:inputType="textPassword"
         android:textColor="@color/white"
         android:background="@drawable/rounded_edittext"
         android:layout_width="match_parent"

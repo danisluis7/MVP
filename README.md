@@ -131,6 +131,9 @@
 	
 ##Technical
 	+ ANALYSIS MAIN(OnCreate). How can separate small block and put it in each Abstract Class.
+
+	
+		
 	+ ANALYSIS SEND DATA FROM VIEW TO PRESENTER (CALL HANDLE - MORE INTERFACE TO RETURN RESULT)
 	
 	
