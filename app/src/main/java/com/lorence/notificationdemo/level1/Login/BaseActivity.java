@@ -7,8 +7,10 @@ import android.os.Bundle;
 import android.support.annotation.RequiresApi;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.view.inputmethod.InputMethodManager;
 
 import com.lorence.notificationdemo.level1.R;
 
@@ -94,5 +96,17 @@ public abstract class BaseActivity extends AppCompatActivity{
         }catch(IllegalArgumentException e){
             e.printStackTrace();
         }
+    }
+
+    public void inputModeKeyBoard(){
+        View view = this.getCurrentFocus();
+        if (view != null) {
+            InputMethodManager imm = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
+            imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
+        }
+    }
+
+    public void showErrorDialog(String message){
+        // Using DialogPlus(Abstract extend Abstract ...)
     }
 }

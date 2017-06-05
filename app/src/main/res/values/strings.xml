@@ -18,5 +18,6 @@
     <string name="app_demo">App Football Match</string>
 
     <string name="loading">Loading...</string>
+    <string name="network_fail">This feature requires internet connection</string>
 
 </resources>
