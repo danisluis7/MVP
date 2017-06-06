@@ -91,7 +91,7 @@
 	+ How can we custom DialogBus?
 		- Unit test talk about how can I use it ? [UNIT TEST]
 <p align="center">
-	 <a href="https://www.w3schools.com">Visit W3Schools.com!</a> 
+	 <a href="https://www.w3schools.com" target="_blank">Visit W3Schools.com!</a> 
 </p>
 
 		
