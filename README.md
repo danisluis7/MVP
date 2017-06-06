@@ -153,6 +153,17 @@ We need to observe below:
 
 	* From data return is Object. In normal way, we will create package with name is Model to contain. In here, model will be pointed "MVP". And we replace with another name is "Entire,...".
 
+	- What is the difference with problem: GSON : @Expose vs @SerializedName
+
+<p align="center">
+	<img src="https://github.com/danisluis7/MVP/blob/level2/14.png" alt="14.png"/>
+</p>
+<p align="center">
+	<img src="https://github.com/danisluis7/MVP/blob/level2/15.png" alt="15.png"/>
+</p>
+
+
+
 		
 
 
