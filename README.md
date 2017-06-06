@@ -88,7 +88,13 @@
 	<img src="https://github.com/danisluis7/MVP/blob/level2/5.png" alt="5.png"/>
 </p>
 		- Declare ArrayList<String> and apply template EXAMPLE 5
-	+ 
+	+ How can we custom DialogBus?
+		- Unit test talk about how can I use it ? [UNIT TEST]
+<p align="center">
+	<a href="" title="Tutorial about how can I use and apply DialogBus"/>
+</p>
+
+		
 
 
 		

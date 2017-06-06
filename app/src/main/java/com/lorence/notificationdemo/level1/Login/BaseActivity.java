@@ -14,6 +14,8 @@ import android.view.inputmethod.InputMethodManager;
 
 import com.lorence.notificationdemo.level1.R;
 
+import java.util.ArrayList;
+
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 
@@ -106,7 +108,7 @@ public abstract class BaseActivity extends AppCompatActivity{
         }
     }
 
-    public void showErrorDialog(String message){
+    public void showErrorDialog(ArrayList<String> message){
         // Using DialogPlus(Abstract extend Abstract ...)
     }
 }
