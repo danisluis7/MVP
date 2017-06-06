@@ -1,14 +1,11 @@
 package com.lorence.notificationdemo.level1.Login.View;
 
 import android.content.Context;
-import android.view.KeyEvent;
-import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.lorence.notificationdemo.level1.Login.SocialActivity;
 import com.lorence.notificationdemo.level1.Login.Utils.Helper;
@@ -17,7 +14,6 @@ import com.lorence.notificationdemo.level1.R;
 import java.util.ArrayList;
 
 import butterknife.BindView;
-import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 public class LoginActivity extends SocialActivity implements ILoginView{
@@ -55,7 +51,7 @@ public class LoginActivity extends SocialActivity implements ILoginView{
             // Connect fail
             message = new ArrayList<>();
             message.add(getResources().getString(R.string.network_fail));
-            showErrorDialog(message);
+            // showErrorDialog(message);
         }
         inputModeKeyBoard();
     }
