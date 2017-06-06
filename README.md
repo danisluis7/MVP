@@ -103,33 +103,38 @@
 		- Move to process to another place like ... and implement.
 
 	- We find about  TMDb API. What is it?
-	<p align="center">
-		<img src="https://github.com/danisluis7/MVP/blob/level2/6.png" alt="6.png"/>
-	</p>
+
+<p align="center">
+	<img src="https://github.com/danisluis7/MVP/blob/level2/6.png" alt="6.png"/>
+</p>
 
 	- Setting dependencies
-	<p align="center">
-		<img src="https://github.com/danisluis7/MVP/blob/level2/7.png" alt="7.png"/>
-	</p>
-	<p align="center">
-		<img src="https://github.com/danisluis7/MVP/blob/level2/8.png" alt="8.png"/>
-	</p>
+
+<p align="center">
+	<img src="https://github.com/danisluis7/MVP/blob/level2/7.png" alt="7.png"/>
+</p>
+
+<p align="center">
+	<img src="https://github.com/danisluis7/MVP/blob/level2/8.png" alt="8.png"/>
+</p>
 
 	- How can manage link with Retrofit2. We use interface and definite method inside Interface. 
 		+ DECLARATION
 			- Declare object that reponse from serve side.[MoviesResponse]
 			- Declare these Librabry that we use.
-	<p align="center">
-		<img src="https://github.com/danisluis7/MVP/blob/level2/9.png" alt="9.png"/>
-	</p>
-	<p align="center">
-		<img src="https://github.com/danisluis7/MVP/blob/level2/10.png" alt="10.png"/>
-	</p>
+<p align="center">
+	<img src="https://github.com/danisluis7/MVP/blob/level2/9.png" alt="9.png"/>
+</p>
+
+<p align="center">
+	<img src="https://github.com/danisluis7/MVP/blob/level2/10.png" alt="10.png"/>
+</p>
 	
 	- What is the definition of @Path, @Query, @Body, @Header.
-	<p align="center">
-		<img src="https://github.com/danisluis7/MVP/blob/level2/11.png" alt="11.png"/>
-	</p>
+
+<p align="center">
+	<img src="https://github.com/danisluis7/MVP/blob/level2/11.png" alt="11.png"/>
+</p>
 		- @Body   : Push data from client to server and check exist of data on service. [POST]
 		- @Query  : Get data from serve by key [GET]
 		- @Part   : 
@@ -137,12 +142,15 @@
 
 	- Object will be presented as AsynTask. We using com.google.gson.annotations.SerializedName to receive data from serve[JSON].
 We need to observe below:
-	<p align="center">
-		<img src="https://github.com/danisluis7/MVP/blob/level2/12.png" alt="12.png"/>
-	</p>
-	<p align="center">
-		<img src="https://github.com/danisluis7/MVP/blob/level2/13.png" alt="13.png"/>
-	</p>
+
+<p align="center">
+	<img src="https://github.com/danisluis7/MVP/blob/level2/12.png" alt="12.png"/>
+</p>
+
+<p align="center">
+	<img src="https://github.com/danisluis7/MVP/blob/level2/13.png" alt="13.png"/>
+</p>
+
 	* From data return is Object. In normal way, we will create package with name is Model to contain. In here, model will be pointed "MVP". And we replace with another name is "Entire,...".
 
 		
