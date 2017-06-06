@@ -1,4 +1,4 @@
-package com.lorence.notificationdemo.level1.Login.View;
+package com.lorence.notificationdemo.level1.Login.View.Login;
 
 import android.content.Context;
 import android.widget.Button;

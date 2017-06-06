@@ -3,6 +3,7 @@ package com.lorence.notificationdemo.level1.Login.View;
 import android.support.test.rule.ActivityTestRule;
 import android.view.View;
 
+import com.lorence.notificationdemo.level1.Login.View.Login.LoginActivity;
 import com.lorence.notificationdemo.level1.R;
 
 import org.junit.After;
