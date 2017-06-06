@@ -94,7 +94,7 @@
 		- Unit test talk about how can I use it ? [UNIT TEST]
 
 <p align="center">
-	 <a href="https://www.w3schools.com" target="_blank">Visit W3Schools.com!</a> 
+	  <a href="https://raw.githubusercontent.com/danisluis7/MVP/level2/app/src/tutorial/DialogPlusTest.java" target="_blank">Visit Tutorial</a> 
 </p>
 
 		
