@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/MVP/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/home/enclaveit/Desktop/MVP/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.1_238c99ed647111cc840854076eaf33d013003bf2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/home/enclaveit/Desktop/MVP/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_e8c86ec16939f4ad59434666497e2137221fb1a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
+        <dex dex="/home/enclaveit/Desktop/MVP/app/build/intermediates/pre-dexed/androidTest/debug/hamcrest-core-1.3_33dbc59b0f9483f2a92641d01fbdc6ea7f62ffcd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
+        <dex dex="/home/enclaveit/Desktop/MVP/app/build/intermediates/pre-dexed/androidTest/debug/junit-4.12_1912d7cf11d150b7ddbd3773b4a1f0509a295ce6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/MVP/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/home/enclaveit/Desktop/MVP/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.1_9237985035b95b62f00e2861c87e5fc279a3a39d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/MVP/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/home/enclaveit/Desktop/MVP/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.1_cf4105123950b582195e247742973cacb3dfb50a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/MVP/app/build/intermediates/exploded-aar/com.android.support.test.espresso/espresso-idling-resource/2.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a890ee8445927649d9ed50f625a315d8758688be">
+        <dex dex="/home/enclaveit/Desktop/MVP/app/build/intermediates/pre-dexed/androidTest/debug/com.android.support.test.espresso-espresso-idling-resource-2.2.2_9bb5e408785b2faf912b95fb036cb1b10adfcfae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/MVP/app/build/intermediates/exploded-aar/com.android.support.test/exposed-instrumentation-api-publish/0.5/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="905f3e63973d47fedf2d945fa31d8c0f0c98816e">
+        <dex dex="/home/enclaveit/Desktop/MVP/app/build/intermediates/pre-dexed/androidTest/debug/com.android.support.test-exposed-instrumentation-api-publish-0.5_2f6bdab1821af586c91c70960fc8c0a00759af46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/MVP/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/home/enclaveit/Desktop/MVP/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.1_9119265137eef4171a37aad9d0ff0180e7451e75.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.3/4785a3c21320980282f9f33d0d1264a69040538f/hamcrest-library-1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4785a3c21320980282f9f33d0d1264a69040538f">
+        <dex dex="/home/enclaveit/Desktop/MVP/app/build/intermediates/pre-dexed/androidTest/debug/hamcrest-library-1.3_1c832f98126335fa3abb51f214d906646a45fbb3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/MVP/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/home/enclaveit/Desktop/MVP/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.3.1_fabffaf579d03f31586582e03d9e7d73bee968ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/MVP/app/build/intermediates/exploded-aar/com.android.support.test/rules/0.5/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7e11799d8a26bfa5d48acafe012ee5545b9bf468">
+        <dex dex="/home/enclaveit/Desktop/MVP/app/build/intermediates/pre-dexed/androidTest/debug/com.android.support.test-rules-0.5_ef54543e87e9d5571c135e7ca2239e920058dc3e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/.gradle/caches/modules-2/files-2.1/com.squareup/javawriter/2.1.1/67ff45d9ae02e583d0f9b3432a5ebbe05c30c966/javawriter-2.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67ff45d9ae02e583d0f9b3432a5ebbe05c30c966">
+        <dex dex="/home/enclaveit/Desktop/MVP/app/build/intermediates/pre-dexed/androidTest/debug/javawriter-2.1.1_70129629b4d188b6ce515a9fcaa97eb1c7bc04dc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/MVP/app/build/intermediates/exploded-aar/com.android.support.test.espresso/espresso-core/2.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d115b0e9e1501135fe91254ba884fcbd83d374c0">
+        <dex dex="/home/enclaveit/Desktop/MVP/app/build/intermediates/pre-dexed/androidTest/debug/com.android.support.test.espresso-espresso-core-2.2.2_374314b2f0989c6ef5effc1dae4e2f012faba85d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="/home/enclaveit/Desktop/MVP/app/build/intermediates/pre-dexed/androidTest/debug/jsr305-2.0.1_af19ebc3615a8d2400a5e420cc711f15b9d68f5c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/MVP/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/home/enclaveit/Desktop/MVP/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.3.1_0373089d69943d0c37f0ca67e65313690a99ea64.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/MVP/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/home/enclaveit/Desktop/MVP/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.1_af0a2532a787b401b9f8fb345eca5cf60852f2d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.6.0/48efa6f14074e1a6b16e02ac05eba3fc5c7c7ec8/butterknife-annotations-8.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="48efa6f14074e1a6b16e02ac05eba3fc5c7c7ec8">
+        <dex dex="/home/enclaveit/Desktop/MVP/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.6.0_dd1d8a5d724970dc81dc3193059444a97d772cfc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/MVP/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/home/enclaveit/Desktop/MVP/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.1_8a238ffd987057d382057cf5fbd3687eb9f2c3f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-integration/1.3/5de0c73fef18917cd85d0ab70bb23818685e4dfd/hamcrest-integration-1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5de0c73fef18917cd85d0ab70bb23818685e4dfd">
+        <dex dex="/home/enclaveit/Desktop/MVP/app/build/intermediates/pre-dexed/androidTest/debug/hamcrest-integration-1.3_74c4e0484f9fa5cd2f60655e2514d5c7a708eb70.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/MVP/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/home/enclaveit/Desktop/MVP/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.3.1_8778b977c953f4d70b374a80b6d6929614ab05eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/MVP/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/home/enclaveit/Desktop/MVP/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.1_10679e4b46bfd4825102607d7c40b5bd25dd2411.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/MVP/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/enclaveit/Desktop/MVP/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.1_ad1127fdf8be7091ec0b49cd154f64f6302ff11a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/home/enclaveit/Desktop/MVP/app/build/intermediates/pre-dexed/androidTest/debug/javax.inject-1_a2abdf35ef58bfed18d121251867fcb1de095084.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/MVP/app/build/intermediates/exploded-aar/com.android.support.test/runner/0.5/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="796f9229948e907471c5595fbe94655ccf03ff73">
+        <dex dex="/home/enclaveit/Desktop/MVP/app/build/intermediates/pre-dexed/androidTest/debug/com.android.support.test-runner-0.5_f18008f163b72fa79756523e5db997eb011af199.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.2/479c1e06db31c432330183f5cae684163f186146/javax.annotation-api-1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="479c1e06db31c432330183f5cae684163f186146">
+        <dex dex="/home/enclaveit/Desktop/MVP/app/build/intermediates/pre-dexed/androidTest/debug/javax.annotation-api-1.2_2b6329e6c5bd0d2716deb2aa52fe8483042c162e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/MVP/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.6.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="be587097e648eabfb7f9eca23ab03369894e2d5d">
+        <dex dex="/home/enclaveit/Desktop/MVP/app/build/intermediates/pre-dexed/debug/com.jakewharton-butterknife-8.6.0_707d9abde006b014012a7d90d160210d32168131.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/enclaveit/Desktop/MVP/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/home/enclaveit/Desktop/MVP/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.1_bc960482ea1c86282639512e9a362e0f0030961f.jar" />
+    </item>
+
+</items>

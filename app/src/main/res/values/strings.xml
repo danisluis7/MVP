@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Tutorials</string>
+    <string name="remember">Remember me</string>
+    <string name="warningaccount">Don\'t have an account \?</string>
+    <string name="register">Register here</string>
+
+    <!-- Login if you Have an Account
+         You copy from it to paste in this area
+    -->
+    <string name="warnYourApp">Login if you Have an Account</string>
+    <string name="ypusername">Username</string>
+    <string name="yppassword">••••••••</string>
+
+
+    <!--
+        Declare Level2Activity
+    -->
+    <string name="app_demo">App Football Match</string>
+
+    <string name="loading">Loading...</string>
+    <string name="network_fail">This feature requires internet connection</string>
+
+</resources>
