@@ -143,6 +143,7 @@ We need to observe below:
 	<p align="center">
 		<img src="https://github.com/danisluis7/MVP/blob/level2/13.png" alt="13.png"/>
 	</p>
+	* From data return is Object. In normal way, we will create package with name is Model to contain. In here, model will be pointed "MVP". And we replace with another name is "Entire,...".
 
 		
 
