@@ -13,7 +13,7 @@
 
 	- From 
 
-	-  How can I receive data from server?
+	-  How can I implement and receive data from server?
 
 		new Call().enqueue{
 			// TODO
@@ -30,6 +30,14 @@
 			- Case 2: get Directly field["Class12T2"] and if - condition with it. (Only one line).
 		+ Apply? (For type of data ?)
 			- Update status of object like: bank account, status of tuition, ...
+
+	-	How can I implement call.enqueue?
+		+ We use implementing available method [onResponse]. We will have two parameters to implement below:
+			- new returned object[Call] and new returned object[Response].
+	- 	What is the difference between Call and Respone?
+
+	// KEEP GOING PROJECT
+	
 	- 	When we get data successfully from serve?
 		+ One   : Bring data and compare with local data like login,....
 		+ Two   : Get data from local and update directly to server
@@ -39,9 +47,9 @@
 	<img src="https://github.com/danisluis7/MVP/blob/level3/1.png" alt="1.png"/>
 </p>
 	
-	+ When Customer log in sucessfully, every information concerns with other feature like : Check Balances, Deposit Funds[UPDATE] or Withdraw Cash[UPDATE],...		
-
-
+		+ When Customer log in sucessfully, every information concerns with other feature like : Check Balances, Deposit Funds[UPDATE] or Withdraw Cash[UPDATE],...		
+	
+	-	
 		
 
 
