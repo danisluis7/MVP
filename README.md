@@ -7,163 +7,39 @@
 ================================
 
 /** Summary VIEW
- *
- * FOR EXAMPLE 1: APPLYING @BindView
- * FOR EXAMPLE 2: DISTRIBUTING PROJECT FROM MODEL TO VIEW
- * FOR EXAMPLE 3: TRANSFER DATA FROM VIEW TO MODEL PROCESSING
- * FOR EXAMPLE 4: APPLYING EVENT CLICK(@OnClick)
- * FOR EXAMPLE 5: USING INTERFACE(CALL DECLARING FROM ABSTRACT)
- * FOR EXAMPLE 6: USING INTERFACE(DEFINITE IN HERE TO USE[PRIVATE])
- * FOR EXAMPLE 7: CALL ABSTRACT METHOD TO EXCUTE DIRECTLY 
+ * 
+ * Research about Retrofit
  */
 
-- HOW CAN I APPLY EXAMPLE:
-	+ I wanna hidden inputModeKeyBoard().
-		- Search the internet to get KeyBoard "Close/hide the Android Soft Keyboard"
-<p align="center">
-	<img src="https://github.com/danisluis7/MVP/blob/level2/1.png" alt="1.png"/>
-</p> 
+	- From 
 
-	+ Event
-		- Event from wiget Android such as: TextView, Button, ImageView, ...
-		- Event from InputModelKeyBoard => We need to catch InputModelKeyBoard
+	-  How can I receive data from server?
 
-	+ How can I control event click from InputModelKeyBoard ?
-	+ How can we call Login when user click KEYCODE_ENTER in INPUTMODEKEYBOARD
-	
-	View.OnKeyListener onKeyListener = new View.OnKeyListener() {
-        @Override
-        public boolean onKey(View view, int keyCode, KeyEvent keyEvent) {
-            if (keyEvent.getAction() == KeyEvent.ACTION_DOWN)
-            {
-                switch (keyCode)
-                {
-                    case KeyEvent.KEYCODE_DPAD_CENTER:
-                    case KeyEvent.KEYCODE_ENTER:
-                        SignIn();
-                        return true;
-                    case KeyEvent.KEYCODE_SPACE:
-                        return true;
-                    default:
-                        break;
-                }
-            }
-            return false;
-        }
-    };
-	- With @OnClick(). We can share process after click button or Click Enter on Keyboard is easily
-
-	+ How can I share method onBackPressed();?
-	- Easily
-		// Call from toolbar
-		toolbar.setNavigationOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                onBackPressed();
-            }
-        });
-
-		// Call default from ActivityAppCompat
-		@Override
-		public void onBackPressed() {
-			hideInputKeyBoard();
-			super.onBackPressed();
-			overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+		new Call().enqueue{
+			// TODO
 		}
 
-	+ How can I detect whether there is an Internet connection available on Android
-<p align="center">
-	<img src="https://github.com/danisluis7/MVP/blob/level2/3.png" alt="3.png"/>
-</p> 
+		new AsyncTask({
 
-	+ How can I definite message to inform error in view?
-		- Find type of screen to show message or way to show message. [Simple Snackbar Android]
-		- Update library: DialogPlus(Default in Android)
-		- Follow link to get DialogBus: https://github.com/orhanobut/dialogplus/blob/master/dialogplus/src/main/java/com/orhanobut/dialogplus/DialogPlus.java
-		- We need to custom and show user about message that you want to show in View.
-<p align="center">
-	<img src="https://github.com/danisluis7/MVP/blob/level2/4.png" alt="4.png"/>
-</p>
-<p align="center">
-	<img src="https://github.com/danisluis7/MVP/blob/level2/5.png" alt="5.png"/>
-</p>
-		- Declare ArrayList<String> and apply template EXAMPLE 5
+		}).excute();
 
-	+ How can we custom DialogBus?
-
-		- Unit test talk about how can I use it ? [UNIT TEST]
+	- 	How can I get returned result from server?
+		+ Problem: I have an example for all guys. I have string from server with format "Nguyen Van Vuong---Class12T2----DUT" and another string also come from server with format "Nguyen Van Vuong","Class12T2","DUT".
+		+ Process???
+			- Case 1: Split()[] return "Class12T2". How many lines will you process in here ?(More than one line).
+			- Case 2: get Directly field["Class12T2"] and if - condition with it. (Only one line).
+		+ Apply? (For type of data ?)
+			- Update status of object like: bank account, status of tuition, ...
+	- 	When we get data successfully from serve?
+		+ One   : Bring data and compare with local data like login,....
+		+ Two   : Get data from local and update directly to server
+		+ Three : Call these class[Presenter] to update these informations in other feature. For example ?
 
 <p align="center">
-	  <a href="https://raw.githubusercontent.com/danisluis7/MVP/level2/app/src/tutorial/DialogPlusTest.java" target="_blank">Visit Tutorial</a> 
-</p>
-
-	+ How can we use Retrofit?
-	
-		- This problem in here: Normally, We usually choose new method instead of POST and GET.
-		- Move to process to another place like ... and implement.
-
-	- We find about  TMDb API. What is it?
-
-<p align="center">
-	<img src="https://github.com/danisluis7/MVP/blob/level2/6.png" alt="6.png"/>
-</p>
-
-	- Setting dependencies
-
-<p align="center">
-	<img src="https://github.com/danisluis7/MVP/blob/level2/7.png" alt="7.png"/>
-</p>
-
-<p align="center">
-	<img src="https://github.com/danisluis7/MVP/blob/level2/8.png" alt="8.png"/>
-</p>
-
-	- How can manage link with Retrofit2. We use interface and definite method inside Interface. 
-		+ DECLARATION
-			- Declare object that reponse from serve side.[MoviesResponse]
-			- Declare these Librabry that we use.
-<p align="center">
-	<img src="https://github.com/danisluis7/MVP/blob/level2/9.png" alt="9.png"/>
-</p>
-
-<p align="center">
-	<img src="https://github.com/danisluis7/MVP/blob/level2/10.png" alt="10.png"/>
+	<img src="https://github.com/danisluis7/MVP/blob/level3/1.png" alt="1.png"/>
 </p>
 	
-	- What is the definition of @Path, @Query, @Body, @Header.
-
-<p align="center">
-	<img src="https://github.com/danisluis7/MVP/blob/level2/11.png" alt="11.png"/>
-</p>
-		- @Body   : Push data from client to server and check exist of data on service. [POST]
-		- @Query  : Get data from serve by key [GET]
-		- @Part   : 
-		- @Header :
-
-	- Object will be presented as AsynTask. We using com.google.gson.annotations.SerializedName to receive data from serve[JSON].
-We need to observe below:
-
-<p align="center">
-	<img src="https://github.com/danisluis7/MVP/blob/level2/12.png" alt="12.png"/>
-</p>
-
-<p align="center">
-	<img src="https://github.com/danisluis7/MVP/blob/level2/13.png" alt="13.png"/>
-</p>
-
-	* From data return is Object. In normal way, we will create package with name is Model to contain. In here, model will be pointed "MVP". And we replace with another name is "Entire,...".
-
-	- What is the difference with problem: GSON : @Expose vs @SerializedName
-
-<p align="center">
-	<img src="https://github.com/danisluis7/MVP/blob/level2/14.png" alt="14.png"/>
-</p>
-<p align="center">
-	<img src="https://github.com/danisluis7/MVP/blob/level2/15.png" alt="15.png"/>
-</p>
-<p align="center">
-	<img src="https://github.com/danisluis7/MVP/blob/level2/16.png" alt="16.png"/>
-</p>
+	+ When Customer log in sucessfully, every information concerns with other feature like : Check Balances, Deposit Funds[UPDATE] or Withdraw Cash[UPDATE],...		
 
 
 		
